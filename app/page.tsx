@@ -68,7 +68,7 @@ export default function Home() {
   return (
     <ChatWindow
       endpoint="api/chat"
-      emoji="🏴‍☠️"
+      emoji="💬"
       titleText="Chat with SQL"
       placeholder="Who works here?"
       emptyStateComponent={InfoCard}
