@@ -10,23 +10,35 @@ export default function Home() {
         <li className="text-l">
           💾
           <span className="ml-2">
-            This <a href="https://nextjs.org/" target="_blank">
+            This{" "}
+            <a href="https://nextjs.org/" target="_blank">
               Next.js
-            </a>{" "}template shows how to query a SQL database with natural language{" "}
+            </a>{" "}
+            template shows how to query a SQL database with natural language{" "}
           </span>
         </li>
         <li>
           💡
           <span className="ml-2">
-            It queries a serverless <a href="https://neon.tech/" target="_blank">
+            It queries a serverless{" "}
+            <a href="https://neon.tech/" target="_blank">
               Neon DB
-            </a>{" "}Postgres instance running the <a href="https://github.com/lerocha/chinook-database" target="_blank">Chinook</a>{" "}demo database.
+            </a>{" "}
+            Postgres instance running the{" "}
+            <a
+              href="https://github.com/lerocha/chinook-database"
+              target="_blank"
+            >
+              Chinook
+            </a>{" "}
+            demo database.
           </span>
         </li>
         <li>
           🎭
           <span className="ml-2">
-            This sample DB represents a digital media store, including tables for artists, albums, media tracks, invoices, and customers.
+            This sample DB represents a digital media store, including tables
+            for artists, albums, media tracks, invoices, and customers.
           </span>
         </li>
         <li className="hidden text-l md:block">
